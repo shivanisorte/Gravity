@@ -1,0 +1,186 @@
+{
+  "users": {
+    "V9yluv9XStYbyd2MkAKbMz9TgkP2": {
+      "name": "Grace Adams",
+      "email": "graceadams@company.com",
+      "role": "hr",
+      "gender": "female",
+      "ethnicity": "white",
+      "disabilityStatus": "none",
+      "team": "People Ops",
+      "location": "Mumbai",
+      "managerId": "",
+      "createdAt": "2024-04-17T12:00:00Z"
+    },
+    "0uxOLMfYCidk07IUFPOIdld5wSj1": {
+      "name": "Dave Harley",
+      "email": "daveharley@company.com",
+      "role": "manager",
+      "gender": "male",
+      "ethnicity": "white",
+      "disabilityStatus": "none",
+      "team": "Engineering",
+      "location": "Delhi",
+      "managerId": "",
+      "createdAt": "2024-04-17T12:00:00Z"
+    },
+    "Pi5ZErzU7wYXqANP7OGCOOwjqPz1": {
+      "name": "Emma Gena",
+      "email": "emmagena@company.com",
+      "role": "manager",
+      "gender": "female",
+      "ethnicity": "south_asian",
+      "disabilityStatus": "disabled",
+      "team": "Design",
+      "location": "Remote",
+      "managerId": "",
+      "createdAt": "2024-04-17T12:00:00Z"
+    },
+    "f1L9hZzJUXQhsanYXq0RMK1tIj53": {
+      "name": "Carol Onsloe",
+      "email": "carolonsloe@company.com",
+      "role": "employee",
+      "gender": "female",
+      "ethnicity": "white",
+      "disabilityStatus": "none",
+      "team": "Engineering",
+      "location": "Bangalore",
+      "managerId": "daveharley@company.com",
+      "createdAt": "2024-04-17T12:00:00Z",
+      "score": 85,
+      "recentWork": [
+        "Designed the new onboarding screen for the mobile app (GitHub)",
+        "Collaborated with product managers to define design specifications for the next release (Meeting Transcript)",
+        "Created high-fidelity wireframes for the new feature (Teams Chat)",
+        "Worked closely with developers to fix UI bugs in the mobile app (Teams Chat)"
+      ],
+      "aiInsights": [
+        "Carol's design contributions are crucial but overshadowed by louder voices in meetings.",
+        "She contributes significantly to design discussions but doesn’t always get the credit",
+        "Carol’s designs are well-received, but she could be more vocal about her ideas."
+      ]
+    },
+    "F0FZdTW8lJOsYWKtKEWPVjrZ4dp2": {
+      "name": "Bob Marley",
+      "email": "bobmarley@company.com",
+      "role": "employee",
+      "gender": "male",
+      "ethnicity": "african",
+      "disabilityStatus": "none",
+      "team": "Engineering",
+      "location": "Bangalore",
+      "managerId": "daveharley@company.com",
+      "createdAt": "2024-04-17T12:00:00Z",
+      "score": 65,
+      "recentWork": [
+        "Developed mobile app feature for push notifications (GitHub)",
+        "Led the team through the mobile app launch, providing guidance (Meeting Transcript)",
+        "Reviewed pull requests and provided feedback (GitHub)",
+        "Helped resolve urgent issues in the mobile build during deployment (Teams Chat)"
+      ],
+      "aiInsights": [
+        "Visible in meetings, always taking the lead and getting acknowledged.",
+        "Highly praised for his leadership in project development.",
+        "Receives credit for high-impact projects and is a vocal participant."
+      ]
+    },
+    "4Gz45yhX88O4N2zfuf8xLtMIV282": {
+      "name": "Aisha Khan",
+      "email": "aishakhan@company.com",
+      "role": "employee",
+      "gender": "female",
+      "ethnicity": "south_asian",
+      "disabilityStatus": "none",
+      "team": "Engineering",
+      "location": "Hyderabad",
+      "managerId": "daveharley@company.com",
+      "createdAt": "2024-04-17T12:00:00Z",
+      "score": 92,
+      "recentWork": [
+        "Refactored payment gateway API (GitHub)",
+        "Created a new authentication flow with improved security (GitHub)",
+        "Suggested performance improvements in the team call (Meeting Transcript)",
+        "Assisted junior devs with debugging in the codebase (Teams Chat)"
+      ],
+      "aiInsights": [
+        "Contributes consistently without much recognition in meetings.",
+        "Is a silent leader who helps junior developers but doesn’t speak up much.",
+        "Her work is crucial but rarely acknowledged by her peers"
+      ]
+    },
+    "XTOJvY6gGBhVuLAeH2Lil9goc4v2": {
+      "name": "Ian O’Neill",
+      "email": "ianoneill@company.com",
+      "role": "employee",
+      "gender": "male",
+      "ethnicity": "white",
+      "disabilityStatus": "none",
+      "team": "Design",
+      "location": "Remote",
+      "managerId": "emmagena@company.com",
+      "createdAt": "2024-04-17T12:00:00Z",
+      "score": 95,
+      "recentWork": [
+        "Automated deployment pipeline improvements (GitHub)",
+        "Monitored system performance and resolved issues during the latest deployment (GitHub)",
+        "Suggested a cloud infrastructure cost-saving strategy (Meeting Transcript)",
+        "Helped the team recover from a production issue on the cloud (Teams Chat)"
+      ],
+      "aiInsights": [
+        "Ian has been silently managing the deployment pipeline, with little acknowledgment.",
+        "Frequently works on system maintenance and fixes issues, but their contributions often go unnoticed.",
+        "Ian ensures smooth DevOps processes but does not often engage in team meetings."
+      ]
+    },
+    "J7Rs11qksNh3mYoAAilAG3pBC2u2": {
+      "name": "Helen Keller",
+      "email": "helenkeller@company.com",
+      "role": "employee",
+      "gender": "female",
+      "ethnicity": "white",
+      "disabilityStatus": "disabled",
+      "team": "Design",
+      "location": "Remote",
+      "managerId": "emmagena@company.com",
+      "createdAt": "2024-04-17T12:00:00Z",
+      "score": 88,
+      "recentWork": [
+        "Tested and validated the new feature updates for the upcoming release (GitHub)",
+        "Reported issues related to accessibility in the mobile app (GitHub)",
+        "Proposed more efficient testing protocols during team meetings (Meeting Transcript)",
+        "Worked with the dev team to troubleshoot issues in the release candidate (Teams Chat)"
+      ],
+      "aiInsights": [
+        "Helen consistently delivers high-quality work, but her efforts often go unnoticed.",
+        "Her accessibility reports are crucial, but she rarely receives recognition.",
+        "She contributes to the testing process but is not acknowledged publicly."
+      ]
+    },
+    "Woh7niMjtQR7l9DvbE1xrg19yJE3": {
+      "name": "Frank Fruit",
+      "email": "frankfruit@company.com",
+      "role": "employee",
+      "gender": "nonbinary",
+      "ethnicity": "african",
+      "disabilityStatus": "none",
+      "team": "Design",
+      "location": "Delhi",
+      "managerId": "emmagena@company.com",
+      "createdAt": "2024-04-17T12:00:00Z",
+      "score": 60,
+      "recentWork": [
+        "Led the product launch strategy for the new feature (GitHub)",
+        "Negotiated with external stakeholders for product improvements (Meeting Transcript)",
+        "Worked closely with design and engineering teams to finalize product features (Teams Chat)",
+        "Created and presented the roadmap for the next quarter (Teams Chat)"
+      ],
+      "aiInsights": [
+        "Highly visible in product discussions, with frequent recognition.",
+        "Frank is often the go-to person for leadership and is frequently praised.",
+        "They are at the forefront of team meetings and regularly receive credit"
+      ]
+    }
+  }
+}
+
+

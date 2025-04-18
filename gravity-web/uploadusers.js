@@ -1,10 +1,10 @@
 const admin = require("firebase-admin");
 const fs = require("fs");
 
-// Load your JSON data
+//Loading JSON data
 const data = JSON.parse(fs.readFileSync("firestore-seed.json", "utf-8"));
 
-// Initialize Firebase Admin SDK with your service account key
+//Initialize Firebase Admin SDK with your serviceaccount key
 admin.initializeApp({
   credential: admin.credential.cert(require("./serviceAccountKey.json"))
 });

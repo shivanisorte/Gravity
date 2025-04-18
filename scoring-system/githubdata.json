@@ -1,0 +1,55 @@
+[
+  {
+    "pull_request": {
+      "title": "Add automated tests for auth service",
+      "author": "ianoneill",
+      "description": "Added 10+ test cases to increase coverage by 22%",
+      "reviewers": [
+        {
+          "reviewer": "bobmarley",
+          "comment": "This is fantastic coverage. Really nice job!",
+          "sentiment": "positive"
+        },
+        {
+          "reviewer": "helenkeller",
+          "comment": "Left a few minor comments, but overall LGTM.",
+          "sentiment": "neutral"
+        }
+      ],
+      "merged_by": "carolonsloe",
+      "acknowledged_contributor": "none"
+    }
+  },
+  {
+    "pull_request": {
+      "title": "Fix flaky dashboard rendering bug",
+      "author": "helenkeller",
+      "description": "Resolved intermittent loading issue on dashboard page.",
+      "reviewers": [
+        {
+          "reviewer": "frankfruit",
+          "comment": "Thanks for fixing this — I hit this bug twice last week!",
+          "sentiment": "positive"
+        }
+      ],
+      "merged_by": "ianoneill",
+      "acknowledged_contributor": "none"
+    }
+  },
+  {
+    "pull_request": {
+      "title": "Update analytics pipeline for new metrics",
+      "author": "bobmarley",
+      "description": "Ingests new usage events and feeds them into the existing funnel structure.",
+      "reviewers": [
+        {
+          "reviewer": "carolonsloe",
+          "comment": "Big change — I left a few questions but overall looks good.",
+          "sentiment": "neutral"
+        }
+      ],
+      "merged_by": "frankfruit",
+      "acknowledged_contributor": "aishakhan"
+    }
+  }
+]

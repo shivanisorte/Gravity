@@ -1,0 +1,37 @@
+[
+  {
+    "sender": "bobmarley",
+    "timestamp": "2025-04-08T13:20:00Z",
+    "text": "Anyone have experience with the new Azure deployment config? Seeing weird errors."
+  },
+  {
+    "sender": "ianoneill",
+    "timestamp": "2025-04-08T13:21:30Z",
+    "text": "Yeah, I ran into this last week. Try setting `enableDefaultIngress` to true."
+  },
+  {
+    "sender": "helenkeller",
+    "timestamp": "2025-04-08T13:23:10Z",
+    "text": "That did the trick. Thanks, Ian!"
+  },
+  {
+    "sender": "frankfruit",
+    "timestamp": "2025-04-09T09:15:00Z",
+    "text": "Need someone to sanity-check this SQL migration before I run it."
+  },
+  {
+    "sender": "carolonsloe",
+    "timestamp": "2025-04-09T09:17:00Z",
+    "text": "On it. Looking now."
+  },
+  {
+    "sender": "bobmarley",
+    "timestamp": "2025-04-09T09:22:00Z",
+    "text": "Looks clean, just double-check the rollback logic."
+  },
+  {
+    "sender": "aishakhan",
+    "timestamp": "2025-04-10T11:00:00Z",
+    "text": "Huge thanks to Ian for unblocking the deployment flow. Quietly crushed it again 👏"
+  }
+]

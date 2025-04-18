@@ -1,0 +1,10 @@
+[
+  { "speaker": "ianoneill", "timestamp": "00:00:01", "text": "Morning, team! Quick sync today – mostly updates." },
+  { "speaker": "carolonsloe", "timestamp": "00:00:05", "text": "We’ve been blocked on the API test cases again." },
+  { "speaker": "bobmarley", "timestamp": "00:00:09", "text": "I’ll jump on that after this, Mark." },
+  { "speaker": "ianoneill", "timestamp": "00:00:12", "text": "Thanks Bob, shoutout to Helen for the docs!" },
+  { "speaker": "helenkeller", "timestamp": "00:00:16", "text": "No problem — happy to help!" },
+  { "speaker": "carolonsloe", "timestamp": "00:00:20", "text": "Thanks Helen! And a huge shoutout to Ian for pushing that PR through." },
+  { "speaker": "frankfruit", "timestamp": "00:00:24", "text": "Great job, everyone. Let's keep this momentum going." },
+  { "speaker": "aishakhan", "timestamp": "00:00:28", "text": "I’ve been reviewing the analytics changes — looking solid so far." }
+]

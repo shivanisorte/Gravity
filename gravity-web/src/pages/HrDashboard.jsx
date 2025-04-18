@@ -126,9 +126,9 @@ const HrDashboard = () => {
           <MuiCard className="bg-yellow-50 border-l-4 border-yellow-400 p-4 shadow-lg rounded-xl">
             <CardContent>
               <Typography variant="h6" color="textSecondary">Gender Insights</Typography>
-              <Typography className="text-gray-700">{`Male: ${((teamMetrics.genderHighPerformers.male / teamMetrics.genderData.male) * 100).toFixed(2)}%`}</Typography>
-              <Typography className="text-gray-700">{`Female: ${((teamMetrics.genderHighPerformers.female / teamMetrics.genderData.female) * 100).toFixed(2)}%`}</Typography>
-              <Typography className="text-gray-700">{`Nonbinary: ${((teamMetrics.genderHighPerformers.nonbinary / teamMetrics.genderData.nonbinary) * 100).toFixed(2)}%`}</Typography>
+              <Typography className="text-gray-700">{`Male silent performers% : ${((teamMetrics.genderHighPerformers.male / teamMetrics.genderData.male) * 100).toFixed(2)}%`}</Typography>
+              <Typography className="text-gray-700">{`Female silent performers% : ${((teamMetrics.genderHighPerformers.female / teamMetrics.genderData.female) * 100).toFixed(2)}%`}</Typography>
+              <Typography className="text-gray-700">{`Nonbinary silent performers% : ${((teamMetrics.genderHighPerformers.nonbinary / teamMetrics.genderData.nonbinary) * 100).toFixed(2)}%`}</Typography>
             </CardContent>
           </MuiCard>
 
@@ -136,9 +136,9 @@ const HrDashboard = () => {
           <MuiCard className="bg-pink-50 border-l-4 border-pink-400 p-4 shadow-lg rounded-xl">
             <CardContent>
               <Typography variant="h6" color="textSecondary">Ethnicity Insights</Typography>
-              <Typography className="text-gray-700">{`White: ${((teamMetrics.ethnicityHighPerformers.white / teamMetrics.ethnicityData.white) * 100).toFixed(2)}%`}</Typography>
-              <Typography className="text-gray-700">{`South Asian: ${((teamMetrics.ethnicityHighPerformers.south_asian / teamMetrics.ethnicityData.south_asian) * 100).toFixed(2)}%`}</Typography>
-              <Typography className="text-gray-700">{`African: ${((teamMetrics.ethnicityHighPerformers.african / teamMetrics.ethnicityData.african) * 100).toFixed(2)}%`}</Typography>
+              <Typography className="text-gray-700">{`White silent performers% : ${((teamMetrics.ethnicityHighPerformers.white / teamMetrics.ethnicityData.white) * 100).toFixed(2)}%`}</Typography>
+              <Typography className="text-gray-700">{`South Asian silent performers% : ${((teamMetrics.ethnicityHighPerformers.south_asian / teamMetrics.ethnicityData.south_asian) * 100).toFixed(2)}%`}</Typography>
+              <Typography className="text-gray-700">{`African silent performers% : ${((teamMetrics.ethnicityHighPerformers.african / teamMetrics.ethnicityData.african) * 100).toFixed(2)}%`}</Typography>
             </CardContent>
           </MuiCard>
         </div>

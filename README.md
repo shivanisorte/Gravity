@@ -8,3 +8,5 @@ Silent impact tracker that identifies people that hold the team together but are
 ![Firebase DB](image-2.png)
 
 ![Gravity App](image-3.png)
+
+![clear img gravity app flow](gravity.drawio.png)

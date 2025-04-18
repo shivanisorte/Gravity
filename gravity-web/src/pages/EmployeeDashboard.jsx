@@ -4,8 +4,6 @@ import { doc, getDoc } from "firebase/firestore";
 
 const EmployeeDashboard = () => {
   const [userData, setUserData] = useState(null);
-  const [score, setScore] = useState(null);
-  const [aiInsights, setAiInsights] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -18,15 +16,10 @@ const EmployeeDashboard = () => {
         const data = docSnap.data();
         setUserData(data);
 
-        setScore(Math.floor(Math.random() * 100)); // Placeholder
-        setAiInsights([
-          "Consistent commits on weekends indicate above-average initiative.",
-          "High participation in meetings but low appreciation from manager.",
-          "Frequent support to peers in Teams chat without being credited.",
-        ]);
       }
     };
 
+    // Fetch data from Firestore
     fetchData();
   }, []);
 
@@ -59,7 +52,7 @@ const EmployeeDashboard = () => {
         {/* Impact Score */}
         <div className="bg-indigo-100 shadow-md rounded-xl p-4 mb-6">
           <h2 className="text-2xl font-semibold text-blue-700 mb-2">🌟 Silent Impact Score</h2>
-          <p className="text-5xl font-bold text-blue-800">{score}/100</p>
+          <p className="text-5xl font-bold text-blue-800">{userData.score}/100</p>
           <p className="text-gray-600 mt-2">
             This score reflects your impact across GitHub, meetings, and chats — even if it goes unnoticed.
           </p>
@@ -69,9 +62,13 @@ const EmployeeDashboard = () => {
         <div className="bg-pink-100  shadow-md rounded-xl p-4">
           <h2 className="text-2xl font-semibold text-yellow-800 mb-2">🔮 AI Insights</h2>
           <ul className="list-disc list-inside text-gray-800 space-y-1">
-            {aiInsights.map((insight, index) => (
-              <li key={index}>{insight}</li>
-            ))}
+            {userData.aiInsights.length > 0 ? (
+              userData.aiInsights.map((insight, index) => (
+                <li key={index}>{insight}</li>
+              ))
+            ) : (
+              <p className="text-gray-500">No AI insights available.</p>
+            )}
           </ul>
         </div>
 
@@ -79,15 +76,13 @@ const EmployeeDashboard = () => {
         <div className="bg-teal-100  shadow-md rounded-xl p-4 mt-6">
           <h2 className="text-2xl font-semibold text-green-800 mb-2">🛠️ Your Recent Work</h2>
           <ul className="list-disc list-inside text-gray-800 space-y-1">
-            {[
-              "Refactored auth logic in login flow (GitHub)",
-              "Suggested better onboarding strategy in team call (Meeting Transcript)",
-              "Helped Rahul debug deployment issue on Teams (Chat)",
-              "Fixed broken link in UI, pushed silently to main branch (GitHub)",
-              "Posted resource guide on design systems for junior team (Teams Chat)"
-            ].map((work, index) => (
-              <li key={index}>{work}</li>
-            ))}
+            {userData.recentWork.length > 0 ? (
+              userData.recentWork.map((work, index) => (
+                <li key={index}>{work}</li>
+              ))
+            ) : (
+              <p className="text-gray-500">No recent work recorded.</p>
+            )}
           </ul>
         </div>
       </div>

@@ -3,8 +3,20 @@ Silent impact tracker that identifies people that hold the team together but are
 
 Gravity is smart system that analyzes and summarizes individual contributions across GitHub, meeting transcripts, and chat data, helping surface impactful, often-overlooked work like support, collaboration, and quiet leadership.
 
-## Demo
-🎥 **[Watch the YouTube demo](https://your-demo-link.com)**  
+## Demo URL
+🔗 **[Check the Vercel Deployment](https://gravity-psi.vercel.app/)**  
+
+## 👤 Demo Login Credentials
+
+| Role     | Email                     | Password     |
+|----------|---------------------------|--------------|
+| Employee | aishakhan@company.com     | aishakhan    |
+| Manager  | daveharley@company.com    | daveharley   |
+| HR       | graceadams@company.com    | graceadams   |
+
+
+## Demo Video
+🎥 **[Watch the YouTube demo](https://www.youtube.com/watch?v=DtrJpdPElxA)**  
 
 ## What It Does
 
